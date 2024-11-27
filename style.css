@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+:root {
+  --header-height: 3.5rem;
+
+  --White-color: hsl(0, 0%, 100%);
+  --Slate-300: hsl(212, 45%, 89%);
+  --Slate-500: hsl(216, 15%, 48%);
+  --Slate-900: hsl(218, 44%, 22%);
+
+/* Font */
+  --font-family: "Outfit", sans-serif;
+  --font-size: 15px;
+
+}
+
+/* reset  */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+  background-color: #2c7dfa;
+}
+
+body {
+    background-color: var(--Slate-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    height: 499px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px 16px 40px;
+    border-radius: 25px;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05); 
+    background-color: var(--White-color);
+}
+
+.content {
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 16px;
+    padding: 0 16px;
+}
+
+h1 {
+    font-size: 22px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1f314f;
+
+}
+
+p {
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #68778d;
+}
